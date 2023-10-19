@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
 </head>
 <body class="container">
+    <!--This is just a title-->
     <h1 class="text-center mb-5">Hop Dating</h1>
+    <!--This is to make sure the nav bar collapses when the page is small-->
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <a class="navbar-brand" href="Home.html">Home</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
@@ -29,12 +31,15 @@
         </div>
       
     </nav>
+    <!--This is the form to input details-->
     <form>
+        <!--This form is to put the person's email address.-->
         <div class="form-group">
           <label for="exampleInputEmail1">Email address</label>
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
           <small id="emailHelp" class="form-text text-muted">If she likes you, she will email you back.</small>
         </div>
+        <!--Name for the person-->
         <div class="input-group">
             <div class="input-group-prepend">
               <span class="input-group-text" id="">First and last name</span>
@@ -45,6 +50,7 @@
          
             
           </div>
+          <!--Using the boot strap helped me with this file upload, as well as freebootcamp-->
            <div class="form-group">
               <label for="exampleFormControlFile1">Please send a photo of yourself.</label>
               <input type="file" class="form-control-file" id="exampleFormControlFile1">
